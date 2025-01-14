@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+  .text-neon {
+    text-shadow: 0 0 5px theme('colors.violet.500'),
+                 0 0 10px theme('colors.violet.500'),
+                 0 0 15px theme('colors.violet.500'),
+                 0 0 20px theme('colors.violet.500');
+  }
+}
+
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
